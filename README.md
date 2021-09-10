@@ -8,4 +8,4 @@ A simple responsive form linked to firebase
 
 ### Built With
 
-CSS, JavaScript and firebase.
+HTML, CSS, JavaScript and firebase.
