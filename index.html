@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="brand"><span>Francielle</span> Web Designer</h1>
+        <div class="wrapper">
+            <div class="company-info">
+                <h3>Form</h3>
+                <ul>
+                    <li>Exemplo</li>
+                    <li>(55) 8829121</li>
+                    <li>test@form.test</li>
+                </ul>
+            </div>
+                <div class="contact">
+                    <h3>email us</h3>
+                    <form id="contactForm">
+                        <p>
+                            <label >Name</label>
+                            <input type="text" name="name" id="name">
+                       
+                        <p>
+                            <label >Company</label>
+                            <input type="text" name="company" id="company">
+                        </p>  
+                         <p>
+                            <label >Email Address</label>
+                            <input type="email" name="email" id="email">
+                        </p> 
+                          <p>
+                            <label >Phone Number</label>
+                            <input type="number" name="phone" id="phone">
+                        </p>
+                        <p  class="full">
+                            <label >Message</label>
+                            <textarea  name="message" rows="5" id="message"></textarea>
+
+                        </p>
+                        <p class="full">
+                        <button type="submit">Submit</button>
+                    </p>
+                    </form>         
+        </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase.js"></script>  
+    <script src="main.js"></script>
+
+</body>
+</html>
